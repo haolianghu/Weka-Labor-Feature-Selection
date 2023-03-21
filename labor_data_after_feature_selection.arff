@@ -1,0 +1,65 @@
+@relation 'labor-neg-data-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.WrapperSubsetEval -B weka.classifiers.trees.J48 -F 5 -T 0.01 -R 1 -E AUC -- -C 0.25 -M 2-Sweka.attributeSelection.BestFirst -D 1 -N 5'
+
+@attribute wage-increase-second-year numeric
+@attribute cost-of-living-adjustment {none,tcf,tc}
+@attribute contribution-to-health-plan {none,half,full}
+@attribute class {bad,good}
+
+@data
+?,?,?,good
+5.8,?,full,good
+?,?,half,good
+4,tc,?,good
+4.5,?,half,good
+2.5,?,?,good
+5,tc,half,good
+4.8,?,?,good
+7,?,?,good
+?,none,?,good
+4,none,full,good
+6.4,?,?,good
+4,none,half,bad
+4,tcf,full,good
+?,none,?,good
+4,none,?,good
+?,?,?,good
+?,tc,none,bad
+?,none,none,bad
+5,tcf,?,good
+4.4,?,full,good
+3,?,?,bad
+4,tcf,?,good
+4,?,full,good
+?,?,?,good
+2,none,full,bad
+4.5,tcf,half,good
+3,none,full,good
+4,none,full,good
+2.5,?,full,bad
+4.5,none,?,good
+2,tc,full,bad
+2.5,?,?,bad
+5,none,none,bad
+2.5,tc,full,bad
+2,none,full,bad
+?,tc,none,bad
+?,none,none,bad
+2.5,?,none,bad
+4,none,half,good
+?,none,none,bad
+3,none,full,bad
+2.5,tc,?,bad
+3,tcf,?,bad
+4,none,none,bad
+4,?,half,bad
+4,none,full,good
+4.6,tcf,half,good
+4.5,none,full,good
+4.5,none,full,good
+5.3,?,?,good
+3,tcf,?,good
+4,tcf,full,good
+3.5,none,full,good
+4.4,none,full,good
+5,?,half,good
+6,?,full,good
